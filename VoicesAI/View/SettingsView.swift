@@ -27,8 +27,10 @@ struct SettingsView: View {
                 }
                 Section {
                     Link("GET API KEY GEMINI AI", destination: URL(string: signUPGemini)!)
+                        .foregroundStyle(.blue)
                     
                     Link("GET API KEY ELEVENLABS", destination: URL(string: signUpElevenLabs)!)
+                        .foregroundStyle(.blue)
                         
                     
                 } header: {
@@ -47,6 +49,7 @@ struct SettingsView: View {
                 }label: {
                     Text("Save")
                         .padding(.trailing, 8)
+                        .foregroundStyle(.blue)
                 }
             }
         }
