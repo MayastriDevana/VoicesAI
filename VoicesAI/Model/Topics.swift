@@ -7,14 +7,20 @@
 
 import Foundation
 
-enum Topics: String, CaseIterable {
-    case persahabatan
-    case cinta
-    case motivasi
-    case horor
+enum Topics: String, CaseIterable, Identifiable {
+    case persahabatan = "Persahabatan"
+    case romantis = "Romantis"
+    case motivasi = "Motivasi"
+    case horor = "Horror"
+    var id: Topics { self }
 }
 
-enum Mood: String, CaseIterable{
-    case bahagia
-    case sedih
+enum Mood: String, CaseIterable, Identifiable{
+    case bahagia = "Bahagia"
+    case sedih = "Sedih"
+    case marah = "Marah"
+    case takut = "Takut"
+    case terkejut = "Terkejut"
+    case jijik = "Jijik"
+    var id: Mood { self }
 }
