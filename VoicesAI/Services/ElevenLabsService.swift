@@ -20,7 +20,7 @@ class ElevenLabsService{
             print("Invalid URL")
             return Data()
         }
-        
+       print("accessing url: \(url)")
         print("You are using API_KEY \(apiKey) for request to ElevenLabs!")
         
         //Request Body
@@ -28,11 +28,11 @@ class ElevenLabsService{
             "model_id": "eleven_multilingual_v2",
             "text": text,
             "voice_settings": [
-                "stability":0.5,
-                "similarity_boost": 0.8
+                "stability":1,
+                "similarity_boost": 1
             ]
         ]
-        let requestBody = try JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
+        let requestBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         //POST data
         var request = URLRequest(url: url)

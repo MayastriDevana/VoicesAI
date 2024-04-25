@@ -24,7 +24,7 @@ struct SettingsView: View {
                         }
                     TextField("ElevenLabs Key", text: $elevenLabsKey)
                         .onAppear{
-                            elevenLabsKey = UserDefaults.standard.string(forKey: "ElevenLabsAPI") ?? ""
+                            elevenLabsKey = UserDefaults.standard.string(forKey: "ElevenLabsAPIKey") ?? ""
                         }
                 } header: {
                     Text("API KEYS")
@@ -73,6 +73,6 @@ struct SettingsView: View {
 extension SettingsView {
     func saveKey(){
         UserDefaults.standard.set(geminiAIKey, forKey: "GeminiAIKey")
-        UserDefaults.standard.set(elevenLabsKey, forKey: "ElevenLabsAPI")
+        UserDefaults.standard.set(elevenLabsKey, forKey: "ElevenLabsAPIKey")
     }
 }

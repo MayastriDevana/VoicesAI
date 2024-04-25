@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constant{
-    static let baseURL = "https://api.elevenlabs.io"
+    static let baseURL = "https://api.elevenlabs.io/"
     static let appVersion = "v1"
     
     enum Endpoint: String{
