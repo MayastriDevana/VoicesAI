@@ -59,7 +59,7 @@ struct StoriesView: View {
                 Button{
                     //TODO
                 }label: {
-                    Text("Generete".uppercased())
+                    Text("Generate".uppercased())
                         .font(.system(.callout, design: .rounded))
                         .fontWeight(.bold)
                 }
