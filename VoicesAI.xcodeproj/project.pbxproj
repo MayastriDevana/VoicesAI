@@ -17,6 +17,7 @@
 		CE445A872BD8F54E004AC738 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE445A862BD8F54E004AC738 /* Constant.swift */; };
 		CE445A8A2BD9FCB1004AC738 /* StoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE445A892BD9FCB1004AC738 /* StoryVM.swift */; };
 		CE445A8D2BD9FD1D004AC738 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = CE445A8C2BD9FD1D004AC738 /* GoogleGenerativeAI */; };
+		CE445A8F2BDA3668004AC738 /* ElevenLabsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE445A8E2BDA3668004AC738 /* ElevenLabsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE445A832BD8DCEC004AC738 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CE445A862BD8F54E004AC738 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		CE445A892BD9FCB1004AC738 /* StoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVM.swift; sourceTree = "<group>"; };
+		CE445A8E2BDA3668004AC738 /* ElevenLabsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevenLabsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				CE445A862BD8F54E004AC738 /* Constant.swift */,
+				CE445A8E2BDA3668004AC738 /* ElevenLabsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				CE445A8A2BD9FCB1004AC738 /* StoryVM.swift in Sources */,
 				CE445A822BD8DCD4004AC738 /* StoriesView.swift in Sources */,
 				CE445A802BD8DC66004AC738 /* Topics.swift in Sources */,
+				CE445A8F2BDA3668004AC738 /* ElevenLabsService.swift in Sources */,
 				CE445A702BD8DC39004AC738 /* ContentView.swift in Sources */,
 				CE445A6E2BD8DC39004AC738 /* VoicesAIApp.swift in Sources */,
 				CE445A872BD8F54E004AC738 /* Constant.swift in Sources */,
